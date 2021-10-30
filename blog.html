@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <section class="subheader">
+      <nav>
+        <a href="index.html"><img src="./eduford_img/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Course</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li>
+              <a
+                href="./contact.html
+            "
+                >Contact</a
+              >
+            </li>
+            <li onclick="showMenu2()">
+              <a>More <i class="fas fa-chevron-circle-down"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="morebutton" id="morebutton">
+          <i class="fas fa-times" onclick="hideMenu2()"></i>
+          <ul>
+            <li><a href="./admission.html">Admission</a></li>
+            <li>
+              <a href="#">Campuses</a>
+              <ul>
+                <li>
+                  <a href="">IEM (Engineering)</a> 
+                </li>
+                <li>
+                  <a href="">IEM (Management)</a>
+                </li>
+                <li>
+                  <a href="">IEM School of IT</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Blogs</h1>
+    </section>
+<!----blog page content----->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./eduford_img/certificate.jpg" alt="">
+            <h2>News and Awards</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quod debitis doloribus, fugiat voluptatum in?</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe impedit beatae iusto, quam provident voluptas deleniti tempora magnam. Delectus ipsa quod corrupti possimus tenetur earum iusto et molestias maxime consequatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, magni? Placeat numquam porro nihil commodi vero ut repellendus dolores corporis!</p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="visit-us-home-button redbtn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div><div>
+                <span>Machine Learning</span>
+                <span>21</span>
+            </div><div>
+                <span>Computer Science</span>
+                <span>21</span>
+            </div><div>
+                <span>Autocad</span>
+                <span>21</span>
+            </div><div>
+                <span>Journalism</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!------footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi eos molestias, excepturi eius ratione expedita nisi reprehenderit quibusdam et?<br> Labore tenetur alias veniam quod impedit beatae blanditiis adipisci assumenda esse omnis vel earum laudantium animi fugiat <br> eum enim optio quaerat modi exercitationem dicta consectetur obcaecati, aspernatur temporibus. Sed, enim laborum.</p>
+    <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!----Javascript for toggle menu---->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.left="0";
+        }
+        function hideMenu(){
+            navLinks.style.left="-200px"
+        }
+    </script>
+    <script>
+        var morebutton=document.getElementById("morebutton");
+        function showMenu2(){
+            morebutton.style.left="0";
+        }
+        function hideMenu2(){
+            morebutton.style.left="-200px"
+        }
+    </script>
+  </body>
+</html>

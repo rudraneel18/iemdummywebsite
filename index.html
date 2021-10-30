@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="./eduford_img/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Course</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html
+            ">Contact</a></li>
+            <li onclick="showMenu2()"><a >More  <i class="fas fa-chevron-circle-down"></i></a></li>
+          </ul>
+        </div>
+        <div class="morebutton" id="morebutton">
+          <i class="fas fa-times" onclick="hideMenu2()"></i>
+          <ul>
+            <li><a href="./admission.html">Admission</a></li>
+            <li>
+              <a href="#">Campuses</a>
+              <ul>
+                <li>
+                  <a href="">IEM (Engineering)</a> 
+                </li>
+                <li>
+                  <a href="">IEM (Management)</a>
+                </li>
+                <li>
+                  <a href="">IEM School of IT</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+          <h1>Institute of Engineering and management</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nemo sint aspernatur? <br> Blanditiis eos nesciunt sequi a autem similique repellendus? Culpa, veniam iste? Eum, maiores?</p>
+          <a href="" class="visit-us-home-button">Visit us to know more</a>
+      </div>
+    </section>
+<!--Course section-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Btech</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum tempora aspernatur blanditiis, libero porro pariatur! Eligendi, voluptatem dicta! Officiis, veniam. </p>
+            </div>
+            <div class="course-col">
+                <h3>MBA</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum tempora aspernatur blanditiis, libero porro pariatur! Eligendi, voluptatem dicta! Officiis, veniam. </p>
+            </div>
+            <div class="course-col">
+                <h3>BCA</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum tempora aspernatur blanditiis, libero porro pariatur! Eligendi, voluptatem dicta! Officiis, veniam. </p>
+            </div>
+        </div>
+    </section>
+
+<!--campus section-->
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, iusto.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="./eduford_img/london.png" >
+            <div class="layer">
+                <h3>Gurukul</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="./eduford_img/newyork.png" >
+            <div class="layer">
+                <h3>Management House</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="./eduford_img/washington.png" >
+            <div class="layer">
+                <h3>Ashram Building</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In molestias vero eos, ducimus cumque accusamus.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./eduford_img/library.png">
+            <h3>Student's Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, perspiciatis!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./eduford_img/basketball.png">
+            <h3>Basketball Court</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, doloribus.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./eduford_img/cafeteria.png">
+            <h3>Tasty Food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, fugiat!</p>
+        </div>
+        
+    </div>
+</section>
+<!--testimonials-->
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="./eduford_img/user1.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, fuga quam! Vel, placeat. Cupiditate, officia blanditiis! Aliquam quaerat amet expedita iure perspiciatis impedit error pariatur, ratione accusantium vero, commodi blanditiis.</p>
+                <h3>User1</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="./eduford_img/user2.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, fuga quam! Vel, placeat. Cupiditate, officia blanditiis! Aliquam quaerat amet expedita iure perspiciatis impedit error pariatur, ratione accusantium vero, commodi blanditiis.</p>
+                <h3>User1</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!----call to action--->
+<section class="cta">
+    <h1>Enroll for our Degree Courses</h1>
+    <a href="" class="visit-us-home-button">CONTACT US</a>
+</section>
+<!------footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi eos molestias, excepturi eius ratione expedita nisi reprehenderit quibusdam et?<br> Labore tenetur alias veniam quod impedit beatae blanditiis adipisci assumenda esse omnis vel earum laudantium animi fugiat <br> eum enim optio quaerat modi exercitationem dicta consectetur obcaecati, aspernatur temporibus. Sed, enim laborum.</p>
+    <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+
+<!----Javascript for toggle menu---->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.left="0";
+        }
+        function hideMenu(){
+            navLinks.style.left="-200px"
+        }
+    </script>
+    <script>
+        var morebutton=document.getElementById("morebutton");
+        function showMenu2(){
+            morebutton.style.left="0";
+        }
+        function hideMenu2(){
+            morebutton.style.left="-200px"
+        }
+    </script>
+  </body>
+</html>
